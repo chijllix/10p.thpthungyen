@@ -331,16 +331,16 @@ color: #FFFFFF;
 }
 
 </style>
-	<link rel="me" href="https://www.blogger.com/profile/02685677094565530891" />
+	<link rel="me" href="" />
 <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
 <meta name='google-adsense-platform-domain' content='blogspot.com'/>
 </head>
 <body>
 		<br><br><br><br>
 		<p align="center">
-			<img class="Blob" src="https://imgur.com/S8L6RlT.jpg" width="130" height="130" alt="_ThanhDieu"></p>
+			<img class="Blob" src="https://imgur.com/S8L6RlT.jpg" width="130" height="130" alt="_"></p>
 		<div class="wide">
-			<h2 class="NameFtThanhDieu">
+			<h2 class="NameFt">
 				<div  id="userName">
 				  Dương Dũng <img  src="https://nhanhoa.com/uploads/attach/1618816460_tich_xanh_facebook.png"  width="13" height="13" alt="Tick Xanh">
 				</div></h2> 
@@ -403,4 +403,4 @@ function playMusic() {
 
 <div id="jsi-flying-fish-container"></div><br><br>
 <footer style="text-align: center; font-size: 14px;">All RIGHTS RESERVED - © 2024<br></footer>
-</body></html>
+</body>
