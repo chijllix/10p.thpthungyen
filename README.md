@@ -33,23 +33,33 @@
 
         .class-info h1 {
             margin-bottom: 10px;
-            color: #f39c12; /* Orange */
+            color: black;
+            font-weight: bold;
         }
 
         .class-info h3 {
-            margin-bottom: 20px;
-            font-weight: normal;
-            color: #ecf0f1; /* Light Gray */
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: black;
         }
 
         .class-info p {
-            color: #e74c3c; /* Red */
+            color: black;
+            font-weight: bold;
+        }
+
+        .class-info .class-details {
+            margin-top: 10px;
+            color: black;
+            font-style: italic;
+            font-weight: bold;
         }
 
         .teacher-info p {
             margin-top: 20px;
             font-size: 1.2em;
-            color: #1abc9c; /* Turquoise */
+            color: black;
+            font-weight: bold;
         }
 
         .posts {
@@ -63,7 +73,8 @@
         }
 
         .posts h2 {
-            color: #9b59b6; /* Purple */
+            color: black;
+            font-weight: bold;
         }
 
         .post h4 {
@@ -71,12 +82,14 @@
             font-size: 1.5em;
             border-bottom: 1px solid white;
             padding-bottom: 5px;
-            color: #3498db; /* Blue */
+            color: black;
+            font-weight: bold;
         }
 
         .post p {
             margin: 10px 0 0;
-            color: #2ecc71; /* Green */
+            color: black;
+            font-weight: bold;
         }
 
         .contact-info {
@@ -88,11 +101,12 @@
 
         .contact-info h2 {
             margin-bottom: 20px;
-            color: #e67e22; /* Carrot Orange */
+            color: black;
+            font-weight: bold;
         }
 
         .contact-info p {
-            color: #ffffff; /* White */
+            color: #ffffff;
         }
 
         .contact-info a {
@@ -113,6 +127,7 @@
         <div class="class-info">
             <h1>Class : 10P </h1>
             <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
+            <p class="class-details">Thông Tin Lớp Học</p>
             <p>Số Lượng Thành Viên: 44</p>
         </div>
 
