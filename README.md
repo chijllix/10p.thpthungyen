@@ -143,8 +143,8 @@
 
         <div class="contact-info">
             <h2>Liên Hệ Với Chúng Tôi</h2>
-            <p>Email: <a href="mailto:">10p.k65.thpthungyen@gmail.com</a></p>
-            <p>Fanpage Facebook: <a href="" target="_blank">https://www.facebook.com/profile.php?id=61564576756287</a></p>
+            <p>Email: <a href="mailto:10p.k65.thpthungyen@gmail.com">10p.k65.thpthungyen@gmail.com</a></p>
+            <p>Fanpage Facebook: <a href="https://www.facebook.com/profile.php?id=61564576756287" target="_blank">https://www.facebook.com/profile.php?id=61564576756287</a></p>
             <p>TikTok: Đang Update</p>
         </div>
     </div>
