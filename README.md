@@ -10,7 +10,6 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            color: white;
             animation: changeBgColor 10s infinite;
         }
 
@@ -30,24 +29,34 @@
             border-radius: 50%;
             width: 150px;
             height: 150px;
-        }
-
-        .class-info {
-            margin-top: 20px;
+            border: 5px solid black; /* Added black border */
         }
 
         .class-info h1 {
             margin-bottom: 10px;
+            color: #f39c12; /* Orange */
         }
 
         .class-info h3 {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             font-weight: normal;
+            color: #ecf0f1; /* Light Gray */
         }
 
-        .teacher-info {
+        .class-info p {
+            color: #e74c3c; /* Red */
+        }
+
+        .class-info .class-details {
+            margin-top: 10px;
+            color: #ecf0f1; /* Light Gray */
+            font-style: italic;
+        }
+
+        .teacher-info p {
             margin-top: 20px;
             font-size: 1.2em;
+            color: #1abc9c; /* Turquoise */
         }
 
         .posts {
@@ -60,8 +69,8 @@
             border-radius: 10px;
         }
 
-        .post {
-            margin-bottom: 20px;
+        .posts h2 {
+            color: #9b59b6; /* Purple */
         }
 
         .post h4 {
@@ -69,10 +78,12 @@
             font-size: 1.5em;
             border-bottom: 1px solid white;
             padding-bottom: 5px;
+            color: #3498db; /* Blue */
         }
 
         .post p {
             margin: 10px 0 0;
+            color: #2ecc71; /* Green */
         }
 
         .contact-info {
@@ -84,10 +95,15 @@
 
         .contact-info h2 {
             margin-bottom: 20px;
+            color: #e67e22; /* Carrot Orange */
+        }
+
+        .contact-info p {
+            color: #ffffff; /* White */
         }
 
         .contact-info a {
-            color: #1abc9c;
+            color: #1abc9c; /* Turquoise */
             text-decoration: none;
             font-weight: bold;
         }
@@ -104,6 +120,7 @@
         <div class="class-info">
             <h1>Class : 10P </h1>
             <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
+            <p class="class-details">Thông Tin Lớp Học</p> <!-- Added class information -->
             <p>Số Lượng Thành Viên: 44</p>
         </div>
 
@@ -113,7 +130,7 @@
         </div>
 
         <div class="posts">
-            <h2>Những Điều Vô Tri : </h2>
+            <h2>Những Điều Vô Tri:</h2>
             <div class="post">
                 <h4>Bài 1: Mục Tiêu</h4>
                 <p>Trên Trung Bình Môn Thầy Chủ Nhiệm=)))</p>
@@ -124,11 +141,11 @@
             </div>
         </div>
 
-        <div class="Contact-Info">
+        <div class="contact-info">
             <h2>Liên Hệ Với Chúng Tôi</h2>
-            <p>Email: 10p.k65.thpthungyen@gmail.com <a href="mailto:10p.k65.thpthungyen@gmail.com">10p.k65.thpthungyen@gmail.com</a></p>
-            <p>Fanpage Facebook: <a href="https://www.facebook.com/profile.php?id=61564576756287" target="_blank">https://www.facebook.com/profile.php?id=61564576756287</a></p>
-            <p>TikTok: Đang Update <a href="" target="_blank"></a></p>
+            <p>Email: <a href="mailto:">10p.k65.thpthungyen@gmail.com</a></p>
+            <p>Fanpage Facebook: <a href="" target="_blank">https://www.facebook.com/profile.php?id=61564576756287</a></p>
+            <p>TikTok: Đang Update</p>
         </div>
     </div>
 </body>
