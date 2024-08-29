@@ -123,7 +123,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://upanh.org/image/10p.jQU12h" alt="Class Avatar" class="avatar">
+        <img src="https://i.upanh.org/2024/08/29/10p477f7a09a3e43344.jpeg" alt="Class Avatar" class="avatar">
         <div class="class-info">
             <h1>Class : 10P </h1>
             <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
