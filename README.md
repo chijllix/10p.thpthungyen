@@ -100,7 +100,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://i.imgur.com/057iSQa.jpeg" alt="Class Avatar" class="avatar">
+        <img src="https://upanh.tv/image/NPVlqQ" alt="Class Avatar" class="avatar">
         <div class="class-info">
             <h1>Class : 10P </h1>
             <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
@@ -133,4 +133,3 @@
     </div>
 </body>
 </html>
-
