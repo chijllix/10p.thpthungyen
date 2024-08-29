@@ -103,7 +103,7 @@
         <img src="link_to_class_avatar.jpg" alt="Class Avatar" class="avatar">
         <div class="class-info">
             <h1>Class : 10P</h1>
-            <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
+            <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
             <p>Số Lượng Thành Viên: 44</p>
         </div>
 
@@ -133,5 +133,3 @@
     </div>
 </body>
 </html>
-
-
