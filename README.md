@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
+            color: white;
             animation: changeBgColor 10s infinite;
         }
 
@@ -31,35 +32,22 @@
             height: 150px;
         }
 
+        .class-info {
+            margin-top: 20px;
+        }
+
         .class-info h1 {
             margin-bottom: 10px;
-            color: black;
-            font-weight: bold;
         }
 
         .class-info h3 {
-            margin-bottom: 10px;
-            font-weight: bold;
-            color: black;
+            margin-bottom: 20px;
+            font-weight: normal;
         }
 
-        .class-info p {
-            color: black;
-            font-weight: bold;
-        }
-
-        .class-info .class-details {
-            margin-top: 10px;
-            color: black;
-            font-style: italic;
-            font-weight: bold;
-        }
-
-        .teacher-info p {
+        .teacher-info {
             margin-top: 20px;
             font-size: 1.2em;
-            color: black;
-            font-weight: bold;
         }
 
         .posts {
@@ -72,9 +60,8 @@
             border-radius: 10px;
         }
 
-        .posts h2 {
-            color: black;
-            font-weight: bold;
+        .post {
+            margin-bottom: 20px;
         }
 
         .post h4 {
@@ -82,14 +69,10 @@
             font-size: 1.5em;
             border-bottom: 1px solid white;
             padding-bottom: 5px;
-            color: black;
-            font-weight: bold;
         }
 
         .post p {
             margin: 10px 0 0;
-            color: black;
-            font-weight: bold;
         }
 
         .contact-info {
@@ -101,16 +84,10 @@
 
         .contact-info h2 {
             margin-bottom: 20px;
-            color: black;
-            font-weight: bold;
-        }
-
-        .contact-info p {
-            color: #ffffff;
         }
 
         .contact-info a {
-            color: #1abc9c; /* Turquoise */
+            color: #1abc9c;
             text-decoration: none;
             font-weight: bold;
         }
@@ -123,36 +100,35 @@
 </head>
 <body>
     <div class="container">
-<img src="https://upanh.org/image/10p.jQU12h" alt="Class Avatar" class="avatar">
+        <img src="link_to_class_avatar.jpg" alt="Class Avatar" class="avatar">
         <div class="class-info">
-            <h1>Class : 10P </h1>
-            <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
-            <p class="class-details">Thông Tin Lớp Học</p>
-            <p>Số Lượng Thành Viên: 44</p>
+            <h1>Tên lớp: Lớp 12A1</h1>
+            <h3>Slogan: "Học hết mình, chơi hết sức"</h3>
+            <p>Số lượng thành viên: 35</p>
         </div>
 
         <div class="teacher-info">
-            <p>Giáo Viên Chủ Nhiệm: Thầy Đoàn Anh Phiến</p>
-            <p>Môn Dạy: Địa Lí</p>
+            <p>Giáo viên chủ nhiệm: Thầy Nguyễn Văn A</p>
+            <p>Môn dạy: Toán học</p>
         </div>
 
         <div class="posts">
-            <h2>Những Điều Vô Tri:</h2>
+            <h2>Bài viết lớp học:</h2>
             <div class="post">
-                <h4>Bài 1: Mục Tiêu</h4>
-                <p>Trên Trung Bình Môn Thầy Chủ Nhiệm=)))</p>
+                <h4>Bài viết 1: Hoạt động ngoại khóa</h4>
+                <p>Nội dung bài viết 1...</p>
             </div>
             <div class="post">
-                <h4>Bài 2: +N Phiếu Bầu Lớp Trưởng </h4>
-                <p>Admin Và 42 Bạn Còn Lại Ở 10P Bầu Cho Bạn Hiền Minh Làm Cán Bộ Lớp, Cụ Thể Là Lớp Trưởng</p>
+                <h4>Bài viết 2: Cuộc thi học sinh giỏi</h4>
+                <p>Nội dung bài viết 2...</p>
             </div>
         </div>
 
         <div class="contact-info">
-            <h2>Liên Hệ Với Chúng Tôi</h2>
-            <p>Email: <a href="mailto:10p.k65.thpthungyen@gmail.com">10p.k65.thpthungyen@gmail.com</a></p>
-            <p>Fanpage Facebook: <a href="https://www.facebook.com/profile.php?id=61564576756287" target="_blank">https://www.facebook.com/profile.php?id=61564576756287</a></p>
-            <p>TikTok: Đang Update</p>
+            <h2>Liên hệ với chúng tôi</h2>
+            <p>Email: <a href="mailto:yourclass@gmail.com">yourclass@gmail.com</a></p>
+            <p>Fanpage Facebook: <a href="https://facebook.com/yourclass" target="_blank">facebook.com/yourclass</a></p>
+            <p>TikTok: <a href="https://tiktok.com/@yourclass" target="_blank">@yourclass</a></p>
         </div>
     </div>
 </body>
