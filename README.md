@@ -1,18 +1,137 @@
-# Chào mừng đến với Trang GitHub của Lớp 10PK, THPT Hưng Yên
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: white;
+            animation: changeBgColor 10s infinite;
+        }
 
-## Giới thiệu về lớp
-Chào mừng các bạn đến với trang GitHub của lớp **10PK, THPT Hưng Yên**. Đây là nơi chúng mình chia sẻ các tài liệu học tập, dự án nhóm, và các hoạt động ngoại khóa của lớp. 
+        @keyframes changeBgColor {
+            0% { background-color: #3498db; }
+            25% { background-color: #2ecc71; }
+            50% { background-color: #e74c3c; }
+            75% { background-color: #f1c40f; }
+            100% { background-color: #9b59b6; }
+        }
 
-## Hoạt động của lớp
-- **Học tập**: Chúng mình luôn cố gắng học tập chăm chỉ để đạt kết quả tốt trong các kỳ thi. Các môn học chính bao gồm Toán, Văn, Anh, Lý, Hóa, Sinh.
-- **Ngoại khóa**: Lớp 10PK thường xuyên tham gia các hoạt động thể thao, văn nghệ, và các sự kiện từ thiện do trường tổ chức.
-- **Dự án lớp**: Tham gia các dự án nhóm và chia sẻ kết quả trên GitHub giúp chúng mình rèn luyện kỹ năng làm việc nhóm và lập trình.
+        .container {
+            padding: 20px;
+        }
 
-## Blog của lớp
-Các bạn có thể theo dõi những hoạt động mới nhất của lớp chúng mình trên blog: [10PK THPT Hưng Yên Blog](https://10pk65thpthungyen.blogspot.com/).
+        .avatar {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
 
-## Liên hệ
-Nếu có bất kỳ câu hỏi hoặc đóng góp nào, các bạn có thể liên hệ với chúng mình qua email: **lop10pk@thpthungyen.edu.vn**.
+        .class-info {
+            margin-top: 20px;
+        }
 
-Rất vui vì sự quan tâm và ủng hộ của các bạn!
+        .class-info h1 {
+            margin-bottom: 10px;
+        }
+
+        .class-info h3 {
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        .teacher-info {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        .posts {
+            margin-top: 30px;
+            text-align: left;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .post {
+            margin-bottom: 20px;
+        }
+
+        .post h4 {
+            margin: 0;
+            font-size: 1.5em;
+            border-bottom: 1px solid white;
+            padding-bottom: 5px;
+        }
+
+        .post p {
+            margin: 10px 0 0;
+        }
+
+        .contact-info {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .contact-info h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #1abc9c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="link_to_class_avatar.jpg" alt="Class Avatar" class="avatar">
+        <div class="class-info">
+            <h1>Class : 10P</h1>
+            <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
+            <p>Số Lượng Thành Viên: 44</p>
+        </div>
+
+        <div class="teacher-info">
+            <p>Giáo Viên Chủ Nhiệm: Thầy Đoàn Anh Phiến</p>
+            <p>Môn Dạy: Địa Lí</p>
+        </div>
+
+        <div class="posts">
+            <h2>Những Điều Vô Tri : </h2>
+            <div class="post">
+                <h4>Bài 1: Mục Tiêu</h4>
+                <p>Trên Trung Bình Môn Thầy Chủ Nhiệm=)))</p>
+            </div>
+            <div class="post">
+                <h4>Bài 2: +N Phiếu Bầu Lớp Trưởng </h4>
+                <p>Admin Và 42 Bạn Còn Lại Ở 10P Bầu Cho Bạn Hiền Minh Làm Cán Bộ Lớp, Cụ Thể Là Lớp Trưởng</p>
+            </div>
+        </div>
+
+        <div class="Contact-Info">
+            <h2>Liên Hệ Với Chúng Tôi</h2>
+            <p>Email: 10p.k65.thpthungyen@gmail.com <a href="mailto:10p.k65.thpthungyen@gmail.com">10p.k65.thpthungyen@gmail.com</a></p>
+            <p>Fanpage Facebook: <a href="https://www.facebook.com/profile.php?id=61564576756287" target="_blank">https://www.facebook.com/profile.php?id=61564576756287</a></p>
+            <p>TikTok: Đang Update <a href="https://tiktok.com/@y" target="_blank">@yourclass</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
 
