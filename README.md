@@ -29,7 +29,6 @@
             border-radius: 50%;
             width: 150px;
             height: 150px;
-            border: 5px solid black; /* Added black border */
         }
 
         .class-info h1 {
@@ -38,19 +37,13 @@
         }
 
         .class-info h3 {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             font-weight: normal;
             color: #ecf0f1; /* Light Gray */
         }
 
         .class-info p {
             color: #e74c3c; /* Red */
-        }
-
-        .class-info .class-details {
-            margin-top: 10px;
-            color: #ecf0f1; /* Light Gray */
-            font-style: italic;
         }
 
         .teacher-info p {
@@ -120,7 +113,6 @@
         <div class="class-info">
             <h1>Class : 10P </h1>
             <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
-            <p class="class-details">Thông Tin Lớp Học</p> <!-- Added class information -->
             <p>Số Lượng Thành Viên: 44</p>
         </div>
 
