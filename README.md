@@ -3,157 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Introduction</title>
+    <title>Profile Card</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body, html {
             margin: 0;
             padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .profile-card {
+            width: 100%;
+            max-width: 350px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             text-align: center;
-            animation: changeBgColor 10s infinite;
-        }
-
-        @keyframes changeBgColor {
-            0% { background-color: #3498db; }
-            25% { background-color: #2ecc71; }
-            50% { background-color: #e74c3c; }
-            75% { background-color: #f1c40f; }
-            100% { background-color: #9b59b6; }
-        }
-
-        .container {
             padding: 20px;
+            box-sizing: border-box;
         }
 
-        .avatar {
+        #avt {
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            border: 5px solid black;
+            width: 100px;
+            height: 100px;
         }
 
-        .class-info h1 {
-            margin-bottom: 10px;
-            color: black;
-            font-weight: bold;
+        .profile-social-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
         }
 
-        .class-info h3 {
-            margin-bottom: 10px;
-            font-weight: bold;
-            color: black;
-        }
-
-        .class-info p {
-            color: black;
-            font-weight: bold;
-        }
-
-        .class-info .class-details {
-            margin-top: 10px;
-            color: black;
-            font-style: italic;
-            font-weight: bold;
-        }
-
-        .teacher-info p {
-            margin-top: 20px;
-            font-size: 1.2em;
-            color: black;
-            font-weight: bold;
-        }
-
-        .posts {
-            margin-top: 30px;
-            text-align: left;
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 10px;
-        }
-
-        .posts h2 {
-            color: black;
-            font-weight: bold;
-        }
-
-        .post h4 {
-            margin: 0;
-            font-size: 1.5em;
-            border-bottom: 1px solid white;
-            padding-bottom: 5px;
-            color: black;
-            font-weight: bold;
-        }
-
-        .post p {
-            margin: 10px 0 0;
-            color: black;
-            font-weight: bold;
-        }
-
-        .contact-info {
-            margin-top: 40px;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 10px;
-        }
-
-        .contact-info h2 {
-            margin-bottom: 20px;
-            color: black;
-            font-weight: bold;
-        }
-
-        .contact-info p {
-            color: #ffffff;
-        }
-
-        .contact-info a {
-            color: #1abc9c; /* Turquoise */
+        .profile-social-links li a {
+            display: inline-block;
             text-decoration: none;
-            font-weight: bold;
         }
 
-        .contact-info a:hover {
-            text-decoration: underline;
+        svg {
+            width: 24px;
+            height: 24px;
         }
-
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="https://i.upanh.org/2024/08/29/10p477f7a09a3e43344.jpeg" alt="Class Avatar" class="avatar">
-        <div class="class-info">
-            <h1>Class : 10P </h1>
-            <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
-            <p class="class-details">Thông Tin Lớp Học</p>
-            <p>Số Lượng Thành Viên: 44</p>
+    <div class="profile-card">
+        <header>
+            <a href="#">
+                <img id="avt" src="https://i.upanh.org/2024/08/29/10p477f7a09a3e43344.jpeg" alt="Avatar" />
+            </a>
+            <h1 id="name">10P</h1>
+            <h2 id="nickname">Tóp Tóp</h2>
+        </header>
+        <div class="profile-bio">
+            <p id="bio">Ghi gì đó ở đây</p>
         </div>
-
-        <div class="teacher-info">
-            <p>Giáo Viên Chủ Nhiệm: Thầy Đoàn Anh Phiến</p>
-            <p>Môn Dạy: Địa Lí</p>
-        </div>
-
-        <div class="posts">
-            <h2>Những Điều Vô Tri:</h2>
-            <div class="post">
-                <h4>Bài 1: Mục Tiêu</h4>
-                <p>Trên Trung Bình Môn Thầy Chủ Nhiệm=)))</p>
-            </div>
-            <div class="post">
-                <h4>Bài 2: +N Phiếu Bầu Lớp Trưởng </h4>
-                <p>Admin Và 42 Bạn Còn Lại Ở 10P Bầu Cho Bạn Hiền Minh Làm Cán Bộ Lớp, Cụ Thể Là Lớp Trưởng</p>
-            </div>
-        </div>
-
-        <div class="contact-info">
-            <h2>Liên Hệ Với Chúng Tôi</h2>
-            <p>Email: <a href="mailto:10p.k65.thpthungyen@gmail.com">10p.k65.thpthungyen@gmail.com</a></p>
-            <p>Fanpage Facebook: <a href="https://www.facebook.com/profile.php?id=61564576756287" target="_blank">https://www.facebook.com/profile.php?id=61564576756287</a></p>
-            <p>TikTok: Đang Update</p>
-        </div>
+        <ul class="profile-social-links">
+            <li>
+                <a id="linkFb" href="https://www.facebook.com/10P">
+                    <svg viewBox="0 0 24 24">
+                        <path fill="#3b5998" d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a id="linkMes" href="//m.me/10P">
+                    <svg viewBox="0 0 24 24">
+                        <path fill="#0084ff" d="M12,2A10,10 0 0,0 2,12C2,16.84 5.64,20.65 10.5,21.74V15H7.5V12H10.5V9.5C10.5,7.29 11.97,6 14,6A5.5,5.5 0 0,1 16.5,6.14V9H14.5C13.4,9 13,9.75 13,10.5V12H16.5L16,15H13V21.74C17.86,20.65 21.5,16.84 21.5,12A10,10 0 0,0 12,2Z" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
     </div>
 </body>
-</html>
