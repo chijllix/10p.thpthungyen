@@ -100,9 +100,9 @@
 </head>
 <body>
     <div class="container">
-        <img src="link_to_class_avatar.jpg" alt="Class Avatar" class="avatar">
+        <img src="https://imgur.com/Yi23Cp1" alt="Class Avatar" class="avatar">
         <div class="class-info">
-            <h1>Class : 10P</h1>
+            <h1>Class : 10P </h1>
             <h3>Slogan: Cái Gì Bạn Cần Chúng Tôi Không Có, Nhưng Những Thứ Bạn Có Chúng Tôi Lại Cần.</h3>
             <p>Số Lượng Thành Viên: 44</p>
         </div>
@@ -128,7 +128,7 @@
             <h2>Liên Hệ Với Chúng Tôi</h2>
             <p>Email: 10p.k65.thpthungyen@gmail.com <a href="mailto:10p.k65.thpthungyen@gmail.com">10p.k65.thpthungyen@gmail.com</a></p>
             <p>Fanpage Facebook: <a href="https://www.facebook.com/profile.php?id=61564576756287" target="_blank">https://www.facebook.com/profile.php?id=61564576756287</a></p>
-            <p>TikTok: Đang Update <a href="https://tiktok.com/@y" target="_blank">@yourclass</a></p>
+            <p>TikTok: Đang Update <a href="" target="_blank"></a></p>
         </div>
     </div>
 </body>
